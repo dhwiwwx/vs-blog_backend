@@ -38,7 +38,7 @@ router.get("/all", (req, res) => {
         });
       } else {
         sum.push({
-          type: "directiory",
+          type: "directory",
           title: current,
           children: getChildPost(`${path}/${current}`),
         });
